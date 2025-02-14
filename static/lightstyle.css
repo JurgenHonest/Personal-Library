@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light background */
+  color: #212529; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+h2 {
+  color: #343a40; /* Darker header color */
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for contrast */
+  color: #212529;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.modal-header {
+  background-color: #007bff; /* Bright blue for header */
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+}
+
+.modal-header .btn-close {
+  background-color: #dc3545; /* Red close button */
+  color: white;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.modal-header .btn-close:hover {
+  transform: scale(1.1);
+}
+
+/* Table Styling */
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.3s;
+  color: #495057; /* Muted dark text */
+}
+
+table th {
+  background-color: #f1f3f5; /* Light header for differentiation */
+  color: #343a40;
+  text-transform: uppercase;
+}
+
+table tr:hover {
+  background-color: #e9ecef; /* Soft hover effect */
+  transform: scale(1.01);
+}
+
+/* Buttons */
+button {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 12px;
+  background: linear-gradient(145deg, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #0056b3, #004085);
+}
+
+/* Sales Table Styling */
+#sales-table td,
+#sales-table th {
+  text-align: center;
+  color: #6c757d; /* Muted gray text */
+}
+
+/* Form Inputs */
+.form-control {
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #495057;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Container Styling */
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* White container for light theme */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Modal Form Buttons */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #007bff;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Modal Form Title */
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+/* Specific Book Details */
+#book-table td button {
+  margin-right: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#book-table td button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
