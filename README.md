@@ -1,6 +1,6 @@
-# 📚 Bookstore Management System  
+# 📚 Personal Library System  
 
-A lightweight bookstore management system built with **Flask**, **SQLite**, **Bootstrap**, and **JavaScript**.  
+A lightweight books management system built with **Flask**, **SQLite**, **Bootstrap**, and **JavaScript**.  
 
 ---
 
